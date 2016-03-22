@@ -1,0 +1,10 @@
+# The client requires readline development libraries so the shell can work
+
+# Debian/Ubuntu
+# sudo apt-get install libreadline-dev 
+
+# Redhat/Fedora
+# yum install readline-devel
+
+# To compile: 
+# gcc client.c kernetix.h -lreadline
